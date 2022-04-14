@@ -1,0 +1,85 @@
+/*
+.section-elements {
+    box-shadow: rgb(100 100 111 / 20%) 0px 7px 29px 0px;
+    width: 50%;
+    margin: auto;
+    border-radius: 15px 15px;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1.5rem;
+    margin: 0.5rem;
+}
+
+.icons-text {
+    display: flex;
+    justify-content: space-between;
+}
+
+.icons>div {
+    cursor: pointer;
+}
+
+.close-text {
+    margin: 1.5rem;
+    font-size: 16px;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.title,
+.take-a-note {
+    margin: 0.5rem;
+}
+
+.title>input {
+    width: 550px;
+    border: 1px solid #959696;
+    height: 50px;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    color: black;
+    border-width: 0px;
+    border: none;
+    outline: none;
+    margin-top: 0.5rem;
+}
+
+.title,
+.take-a-note {
+    height: 60%;
+    padding: 0;
+}
+
+.take-a-note>input {
+    width: 550px;
+    border: 1px solid #959696;
+    height: 50px;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    color: black;
+    border-width: 0px;
+    border: none;
+    outline: none;
+}
+
+.bsFillPinFill-item {
+    float: right;
+    position: relative;
+    top: 18px;
+    right: 20px;
+}
+*/
+
+
+/* Designing */
+
+.close-item>h5 {
+    margin: 1.5rem;
+    font-size: 15px;
+    font-weight: 500;
+    cursor: pointer;
+}

@@ -1,0 +1,159 @@
+.container {
+    width: 34vw;
+    height: 95vh;
+    text-align: center;
+    background: #fff;
+    margin: auto;
+    border: 1px solid rgb(146, 145, 145);
+    border-radius: 10px;
+}
+
+.signin-section-one {
+    flex-direction: column;
+    padding-top: 1rem;
+    align-items: center;
+    width: 100%;
+}
+
+.google-photo {
+    text-align: center;
+}
+
+.sign-in>h3 {
+    font-family: 'Google Sans', 'Noto Sans Myanmar UI', arial, sans-serif;
+    font-weight: lighter;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.use-your-google-account>h2 {
+    color: #202124;
+    font-family: 'Google Sans', 'Noto Sans Myanmar UI', arial, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.signin-section-two {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding-top: 1rem;
+    /* padding-top: 1.5rem; */
+}
+
+.password-field {
+    padding-top: 1rem;
+}
+
+.email-or-phone,
+.password {
+    width: 80%;
+}
+
+.forgot-email-text {
+    text-align: start;
+    margin-left: 2.6rem;
+}
+
+.forgot-password-text {
+    text-align: start;
+    margin-left: 2.6rem;
+}
+
+.note-your-computer-text {
+    font-size: 14px;
+    color: rgb(85, 85, 85);
+    font-weight: 500;
+    text-align: start;
+    margin-left: 2.6rem;
+    width: 100%;
+    padding-top: 1.5rem;
+}
+
+.content-four {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding-top: 2rem;
+}
+
+.create-account,
+.next-button {
+    margin-left: 2.6rem;
+    margin-right: 2.6rem;
+}
+
+
+/* Responsive Design */
+
+@media only screen and (min-width:770px) and (max-width:1024px) {
+    .container {
+        width: 50vw;
+        height: 100vh;
+    }
+    .create-account,
+    .next-button {
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+    .note-your-computer-text {
+        font-size: 12px;
+        color: rgb(85, 85, 85);
+        font-weight: 500;
+        /* text-align: start; */
+        margin-left: 2rem;
+        margin-right: 2rem;
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width:480px) and (max-width:770px) {
+    .container {
+        width: 50vw;
+        height: 100vh;
+    }
+    .create-account,
+    .next-button {
+        margin-left: 1.5rem;
+        margin-right: 1.5rem;
+    }
+    .note-your-computer-text {
+        font-size: 12px;
+        color: rgb(85, 85, 85);
+        font-weight: 500;
+        /* text-align: start; */
+        margin-left: 1rem;
+        margin-right: 1rem;
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width:320px) and (max-width:480px) {
+    .container {
+        width: 50vw;
+        height: 100vh;
+    }
+    .create-account,
+    .next-button {
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+    .note-your-computer-text {
+        font-size: 12px;
+        color: rgb(85, 85, 85);
+        font-weight: 500;
+        /* text-align: start; */
+        margin-left: 1rem;
+        margin-right: 1rem;
+        width: 100%;
+    }
+    .content-four {
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-between;
+        gap: 1rem;
+        width: 100%;
+        padding-top: 1rem;
+    }
+}

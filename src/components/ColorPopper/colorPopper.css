@@ -1,0 +1,6 @@
+.colorBox {
+    height: 25px;
+    width: 25px;
+    border-radius: 50px;
+    border: 1px solid black;
+}

@@ -1,0 +1,288 @@
+.signup-page {
+    width: 60vw;
+    height: 100vh;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: auto;
+    border: 1px solid rgb(146, 145, 145);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.google-image {
+    text-align: start;
+    width: 100%;
+}
+
+.section-content-one {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-left: 20px;
+    /* align-items: start; */
+}
+
+.createaccount {
+    color: #202124;
+    font-family: 'Google Sans', 'Noto Sans Myanmar UI', arial, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    width: 100%;
+}
+
+.firstName-lastName,
+.password-confirm {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+}
+
+.emailbox {
+    width: 100%;
+}
+
+.emailtxt {
+    font-size: 15px;
+    color: rgb(85, 85, 85);
+    font-weight: 400;
+}
+
+.use-8-or-more-character {
+    font-size: 15px;
+    color: rgb(85, 85, 85);
+    font-weight: 400;
+    margin: 0;
+}
+
+.box {
+    width: 100%;
+}
+
+.footer-section {
+    width: 100%;
+    color: lightskyblue;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.section-two {
+    width: 35%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.imgtxt {
+    width: 70%;
+    font-size: 16px;
+    font-weight: 300;
+    text-align: center;
+}
+
+@media only screen and (min-width: 769px) and (max-width: 900px) {
+    .signup-page {
+        height: 100vh;
+        width: 60vw;
+        border: 1px solid black;
+        border-radius: 10px;
+        margin: auto;
+        border: 1px solid rgb(146, 145, 145);
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .section-two {
+        display: none;
+    }
+    .createaccount {
+        width: 100%;
+    }
+    .google-image {
+        /* text-align: start; */
+        width: 100%;
+    }
+    .section-content-one {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        margin-left: 20px;
+        margin-right: 20px;
+        /* align-items: start; */
+    }
+    .firstName-lastName,
+    .password-confirm {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        align-items: center;
+        gap: 2rem;
+    }
+    .name {
+        width: 48%;
+    }
+    .footer-section {
+        width: 100%;
+        color: lightskyblue;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+    .signup-page {
+        height: 130vh;
+        width: 100vw;
+        border: 1px solid black;
+        border-radius: 10px;
+        margin: auto;
+        border: 1px solid rgb(146, 145, 145);
+    }
+    .section-two {
+        display: none;
+    }
+    .createaccount {
+        width: 100%;
+    }
+    .section-content-one {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        margin-left: 20px;
+        margin-right: 20px;
+        /* align-items: start; */
+    }
+    .name {
+        width: 100%;
+    }
+    .firstName-lastName,
+    .password-confirm {
+        width: 100%;
+        /* display: flex; */
+        flex-direction: column;
+        align-items: center;
+        /* justify-content: space-between; */
+        /* gap: 2rem; */
+    }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+    .signup-page {
+        height: 130vh;
+        width: 100vw;
+        border: 1px solid black;
+        border-radius: 10px;
+        margin: auto;
+        border: 1px solid rgb(146, 145, 145);
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .google-image {
+        width: 100%;
+    }
+    .createaccount {
+        color: #202124;
+        font-family: 'Google Sans', 'Noto Sans Myanmar UI', arial, sans-serif;
+        font-size: 18px;
+        font-weight: 400;
+        width: 100%;
+    }
+    .section-two {
+        display: none;
+    }
+    .firstName-lastName,
+    .password-confirm {
+        width: 100%;
+        /* display: flex; */
+        flex-direction: column;
+        align-items: center;
+        /* justify-content: space-between; */
+        align-items: center;
+        /* gap: 2rem; */
+    }
+    .section-content-one {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        margin-left: 20px;
+        margin-right: 20px;
+        /* align-items: start; */
+    }
+    .name {
+        width: 100%;
+    }
+}
+
+@media (max-width: 320px) {
+    .signup-page {
+        height: 130vh;
+        width: 100vw;
+        border: 1px solid black;
+        border-radius: 10px;
+        margin: auto;
+        border: 1px solid rgb(146, 145, 145);
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .google-image {
+        width: 100%;
+    }
+    .createaccount {
+        color: #202124;
+        font-family: 'Google Sans', 'Noto Sans Myanmar UI', arial, sans-serif;
+        font-size: 18px;
+        font-weight: 400;
+        width: 100%;
+    }
+    .section-two {
+        display: none;
+    }
+    .firstName-lastName,
+    .password-confirm {
+        width: 100%;
+        /* display: flex; */
+        flex-direction: column;
+        align-items: center;
+        /* justify-content: space-between; */
+        align-items: center;
+        /* gap: 2rem; */
+    }
+    .section-content-one {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        margin-left: 20px;
+        margin-right: 20px;
+        /* align-items: start; */
+    }
+    .name {
+        width: 100%;
+    }
+    .footer-section {
+        width: 100%;
+        color: lightskyblue;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+}
